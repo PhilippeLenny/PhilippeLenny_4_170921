@@ -516,6 +516,11 @@ button {
     border-radius: 0 0 29px 29px;
 }
 
+.img-size{
+    height: 270px;
+    width: 270px;
+} 
+
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
