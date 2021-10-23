@@ -14,6 +14,42 @@ button {
     font-size: 16px;
 }
 
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.form-control{
+    width: 300px;
+    height: 25px;
+    border-radius: 20px 20px 20px 20px;
+    border: 2px solid black;
+    font-size: 16px;
+    transition: border 0.200s;
+}
+
+.form-control:hover{
+    border: 2px solid #F3976C;
+}
+
+.form-control-spe{
+    height: 80px;
+    width: 300px;
+}
+
+.send-box{
+    padding: 16px 22px 16px 22px;
+    background-color: #F3976C;
+    color: white;
+}
+
+.text-modif{
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+
 a:hover {
     text-decoration: none;
     cursor: pointer;
@@ -55,7 +91,7 @@ a:hover {
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 30px 0px;
 }
 
 .bloc-md {
@@ -327,9 +363,13 @@ a:hover {
 
 .navbar .nav {
     padding-top: 2px;
-    margin-right: -16px;
-    float: right;
     z-index: 1;
+}
+
+.nav-contact{
+    display: flex;
+    list-style-type: none;
+
 }
 
 .nav > li {
@@ -375,11 +415,23 @@ a:hover {
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
-        top: 50%;
-        right: 20px;
+        top: 30%;
+        right: 150px;
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
+        list-style-type: none;
     }
+
+    
+
+    .marg{
+        margin-right: 50px;
+    }
+
+    .burger-menu{
+        font-size: 30px;
+    }
+
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
         color: #484848;
@@ -388,6 +440,7 @@ a:hover {
         left: 0;
         right: 0;
     }
+
     .nav-center {
         text-align: center;
     }
@@ -453,6 +506,7 @@ nav .caret {
 .mg-lg {
     margin-top: 10px;
     margin-bottom: 40px;
+    font-size: 16px;
 }
 
 .btn {
@@ -693,6 +747,7 @@ a {
 
 .hero-bloc-text {
     font-size: 38px;
+    font-weight: bold;
 }
 
 .hero-bloc-text-sub {
@@ -1016,6 +1071,11 @@ h4 {
     .bloc-lg {
         padding: 40px 0;
     }
+
+    .size-p{
+        font-size: 16px;
+    }
+
     .bloc-sm,
     .bloc-md {
         padding-left: 0;
