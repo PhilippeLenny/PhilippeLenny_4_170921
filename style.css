@@ -138,6 +138,15 @@ a:hover {
     background: top no-repeat;
 }
 
+.img-resize{
+    height: 40px;
+    width: 200px;
+}
+
+.image-resize-logo{
+    width: 100px;
+}
+
 .bloc-bg-texture::before {
     content: "";
     background-size: 2px 2px;
