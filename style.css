@@ -139,12 +139,13 @@ a:hover {
 }
 
 .img-resize{
-    height: 40px;
-    width: 200px;
+    height: 45px;
+    width: 230px;
 }
 
 .image-resize-logo{
     width: 100px;
+    height: 100px;
 }
 
 .bloc-bg-texture::before {
