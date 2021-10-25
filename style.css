@@ -424,6 +424,11 @@ a:hover {
     z-index: 2;
 }
 
+.personal-text{
+    background: #F3976C!important;
+    color: #000000;
+}
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
