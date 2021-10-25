@@ -42,7 +42,19 @@ button {
 .send-box{
     padding: 16px 22px 16px 22px;
     background-color: #F3976C;
-    color: white;
+   border: 2px solid black;
+   transition: 250ms;
+}
+
+.send-box:hover{
+    transform: scale(1.05);
+}
+
+.social-emplacement{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 40px;
+    padding-left: 30px;
 }
 
 .text-modif{
@@ -422,7 +434,9 @@ a:hover {
         list-style-type: none;
     }
 
-    
+    .black-text{
+        color: black;
+    }
 
     .marg{
         margin-right: 50px;
@@ -1132,5 +1146,13 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+
+    .social-emplacement{
+        flex-direction: column;
+    }
+
+    .navbar-toggle{
+        font-size: 35px;
     }
 }
