@@ -141,6 +141,7 @@ a:hover {
 .img-resize{
     height: 40px;
     width: 100%;
+    font-size: 1px;
 }
 
 .image-resize-logo{
