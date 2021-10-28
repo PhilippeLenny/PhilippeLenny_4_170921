@@ -35,8 +35,12 @@ button {
 }
 
 .form-control-spe{
-    height: 80px;
-    width: 300px;
+    height: 100px;
+    width: 100%;
+    border-radius: 20px 20px 20px 20px;
+    border: 2px solid rgba(0, 0, 0, .1);;
+    transition: border 0.200s;
+    font-size: 16px;
 }
 
 .send-box{
@@ -60,6 +64,11 @@ button {
 .text-modif{
     font-size: 18px;
     margin-bottom: 4px;
+}
+
+.text-modif-bubble{
+    font-size: 18px;
+    font-family: Helvetica;
 }
 
 a:hover {
@@ -427,6 +436,7 @@ span.fa{
 .navbar-toggle {
     margin: 10px 10px 0 0;
     border: 0px;
+    visibility: hidden;
 }
 
 .navbar-toggle:hover {
@@ -872,7 +882,7 @@ h4 {
 }
 
 .portfolio-thumb {
-    margin-bottom: 24px;
+    margin: auto;
 }
 
 .portfolio-row {
@@ -1183,6 +1193,13 @@ h4 {
     }
 
     .navbar-toggle{
+        visibility: visible;
         font-size: 35px;
+    }
+
+    .col-sm-3{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15px;
     }
 }
